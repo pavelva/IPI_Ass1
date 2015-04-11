@@ -160,7 +160,7 @@ aside{
 }
 
 /*------- Responsiveness -------*/
-@media (max-width: 1400px){
+@media (max-width: 1450px){
     aside{
         display:none;
     }
