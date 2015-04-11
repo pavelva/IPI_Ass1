@@ -6,7 +6,7 @@ var curPage = null;
 
 $(document).ready(function(){
     loadPages();
-    $("#date").empty().append(new Date().toDateString());
+    $("time").empty().append(new Date().toDateString());
     $("section").hide();
     setTimeout(function(){
         $(".mainSection").fadeIn(500);
@@ -38,7 +38,7 @@ function loadPages(){
 
 function loadPage(page){
     if(curPage){
-        curPage.element.fadeOut(500);
+        curPage.element.fadeOut(400);
         curPage.link.css("color", "white");
         curPage.link.mouseenter(function(){
             $(this).css("color","rgba(255,255,255,0.8)");

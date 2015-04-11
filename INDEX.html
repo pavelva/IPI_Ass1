@@ -11,13 +11,22 @@
 
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <header id="mainHeader">
 
         <a href="INDEX.html">
             <img id="logo" src="Images/logo.png" alt="Vaisburgon - Pavel Vaisburg's News" title="Vaisburgon - Pavel Vaisburg's News">
         </a>
 
-
+        <div class="fb-like" data-href="http://localhost:63342/IPI_Ass1/INDEX.html" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
     </header>
     <nav>
         <a id="aNews" onclick="loadPage(pages.news)">News</a>
@@ -25,21 +34,29 @@
         <a id="aMedia" onclick="loadPage(pages.media)">Media</a>
         <a id="aContact" onclick="loadPage(pages.contact)">Contact</a>
 
-        <span id="date">
+        <time>
             Firday, April 18, 2015
-        </span>
+        </time>
     </nav>
 
     <main>
         <section class="mainSection">
             <article class="about">
                 <header class="innerHeader"> Pavel Vaisburg - Who is He? The Truth Behind the Mystery Man</header>
-                <img src="Images/me.JPG">
+                <figure>
+                    <img src="Images/me.JPG" title="Mystery Man" alt="Mystery MAn">
+                    <figcaption>Pavel Vaisbugr - Switzerland</figcaption>
+                </figure>
                 <div class="content">
-                    class = about
-                    pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg
-                    pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg
-                    pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg
+                    <p>
+                        class = about
+                        pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg
+                        pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel
+                    </p>
+                    <p>
+                        vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg
+                        pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg pavel vaisburg
+                    </p>
                 </div>
             <footer>FOOTER</footer>
             </article>

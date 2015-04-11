@@ -43,7 +43,7 @@ nav a:hover{
     color:rgba(255,255,255,0.8);
 }
 
-#date{
+time{
     float:right;
     margin: 0 10px 0 0;
 
@@ -54,7 +54,7 @@ main{
     width:100%;
     height:650px;
     margin:10px 0 0 0;
-    /*box-shadow: 2px 0 rgba(0,0,0,0.1), inset 2px 0 rgba(0,0,0,0.1);*/
+    display: block;
 }
 
 section{
@@ -80,6 +80,9 @@ article{
     box-shadow:  2px 2px rgba(0,0,0,0.2);
 }
 
+article p{
+    text-align: justify;
+}
 .about{
     height:100%;
     margin:0 1% 0 0;
@@ -114,15 +117,24 @@ article[class*=bigStory]:last-of-type{
     margin:1% 0 0 1%;
 }
 
-article.about img{
+article.about figure{
     width:100%;
-    display: block;
     margin: 0 0 10px 0;
 }
+
+
 .fullStory{
     width:94.5%;
     height:100%;
     margin:0 0 0 1%;
+}
+
+figure img{
+    width: 100%;
+}
+
+figure figcaption{
+    font-size:0.9em;
 }
 /*-------- Aside Banner ---------*/
 aside{
@@ -137,7 +149,8 @@ aside{
 /*-------- Page Footer ---------*/
 .pageFooter{
     width:100%;
-    height:150px;
+    height:120px;
     margin: 10px 0 0 0;
     background: rgba(100, 0 ,0 , 0.8);
 }
+
