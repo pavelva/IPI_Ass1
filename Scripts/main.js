@@ -6,6 +6,7 @@ var curPage = null;
 
 $(document).ready(function(){
     loadPages();
+    $("#date").empty().append(new Date().toDateString());
     $("section").hide();
     setTimeout(function(){
         $(".mainSection").fadeIn(500);

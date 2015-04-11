@@ -88,16 +88,21 @@ article{
 .story{
     float:left;
 }
-
+article{
+    word-wrap: break-word;
+    overflow:hidden;
+}
 article[class*="smallStory"]{
     width:44.8%;
     height:48%;
     margin:0 0 2% 1%;
 }
+
 article[class*="smallStory"]:nth-of-type(3),
 article[class*="smallStory"]:nth-of-type(4){
     margin:2% 0 0 1%;
 }
+
 article[class*=bigStory]{
     width:94.6%;
     height:49%;
@@ -109,6 +114,11 @@ article[class*=bigStory]:last-of-type{
     margin:1% 0 0 1%;
 }
 
+article.about img{
+    width:100%;
+    display: block;
+    margin: 0 0 10px 0;
+}
 .fullStory{
     width:94.5%;
     height:100%;
