@@ -161,3 +161,9 @@ aside{
     background: rgba(100, 0 ,0 , 0.8);
 }
 
+/*------- Responsiveness -------*/
+@media (max-width: 1400px){
+    aside{
+        display:none;
+    }
+}
