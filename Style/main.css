@@ -10,8 +10,8 @@ body{
 /*-------- Page Header ---------*/
 #mainHeader{
     width:100%;
-    margin: 0 auto;
     border-bottom: 3px solid rgba(0,0,0,0.2);
+    position:relative;
 }
 
 #logo{
@@ -19,6 +19,13 @@ body{
     margin: 0 auto;
 }
 
+.fb-like{
+    heigh:100%;
+    position: absolute !important;
+    display: block;
+    bottom: 5px;
+    right:0;
+}
 /*-------- Top Navigator Content ---------*/
 nav{
     font-size: 1.3em;
