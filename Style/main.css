@@ -4,7 +4,6 @@ a,.a{transition: all .2s linear;-o-transition: all .2s linear;-moz-transition: a
 body{
     width:1000px;
     margin:1% auto;
-    font-family: "Droid Serif";
 }
 
 /*-------- Page Header ---------*/
@@ -20,7 +19,6 @@ body{
 }
 
 .fb-like{
-    heigh:100%;
     position: absolute !important;
     display: block;
     bottom: 5px;
