@@ -1,0 +1,133 @@
+*{padding:0;margin:0;border:none;border-collapse:collapse;text-decoration:none;list-style:none; outline:0;}
+a,.a{transition: all .2s linear;-o-transition: all .2s linear;-moz-transition: all .2s linear;-webkit-transition: all .2s linear}
+
+body{
+    width:1000px;
+    margin:1% auto;
+    font-family: "Droid Serif";
+}
+
+/*-------- Page Header ---------*/
+#mainHeader{
+    width:100%;
+    margin: 0 auto;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+}
+
+#logo{
+    display:block;
+    margin: 0 auto;
+}
+
+/*-------- Top Navigator Content ---------*/
+nav{
+    font-size: 1.3em;
+    background: rgba(100, 0 ,0 , 0.8);
+    color:white;
+    padding:2px 0;
+}
+
+nav a:first-of-type{
+    margin: 0 0 0 10px;
+}
+
+nav a:after{
+    content:" |";
+}
+
+nav a:nth-last-of-type(1):after{
+    content: "";
+}
+nav a:hover{
+    cursor: pointer;
+    color:rgba(255,255,255,0.8);
+}
+
+#date{
+    float:right;
+    margin: 0 10px 0 0;
+
+}
+
+/*-------- Main Content ---------*/
+main{
+    width:100%;
+    height:650px;
+    margin:10px 0 0 0;
+    /*box-shadow: 2px 0 rgba(0,0,0,0.1), inset 2px 0 rgba(0,0,0,0.1);*/
+}
+
+section{
+    float:left;
+    height:650px;
+}
+
+.mainSection{
+    width:40%;
+}
+
+.secondarySection{
+    width:60%;
+}
+
+.innerHeader{
+    font-size: 2em;
+    margin: 0 0 2% 0;
+}
+
+article{
+    padding: 0 2%;
+    box-shadow:  2px 2px rgba(0,0,0,0.2);
+}
+
+.about{
+    height:100%;
+    margin:0 1% 0 0;
+}
+
+.story{
+    float:left;
+}
+
+article[class*="smallStory"]{
+    width:44.8%;
+    height:48%;
+    margin:0 0 2% 1%;
+}
+article[class*="smallStory"]:nth-of-type(3),
+article[class*="smallStory"]:nth-of-type(4){
+    margin:2% 0 0 1%;
+}
+article[class*=bigStory]{
+    width:94.6%;
+    height:49%;
+    margin:0 0 1% 1%;
+}
+
+article[class*=bigStory]:last-of-type{
+    height:49%;
+    margin:1% 0 0 1%;
+}
+
+.fullStory{
+    width:94.5%;
+    height:100%;
+    margin:0 0 0 1%;
+}
+/*-------- Aside Banner ---------*/
+aside{
+    position: fixed;
+    right:2%;
+    top: 130px;
+    width:300px;
+    height: 600px;
+    background: blue;
+}
+
+/*-------- Page Footer ---------*/
+.pageFooter{
+    width:100%;
+    height:150px;
+    margin: 10px 0 0 0;
+    background: rgba(100, 0 ,0 , 0.8);
+}
