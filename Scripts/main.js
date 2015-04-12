@@ -25,9 +25,9 @@ function loadPages(){
             element: $("#media"),
             link: $("#aMedia")
         },
-        sports : {
-            element: $("#sports"),
-            link: $("#aSports")
+        hobbies : {
+            element: $("#hobbies"),
+            link: $("#aHobbies")
         },
         contact : {
             element: $("#contact"),
